@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OZADOS.com</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <!-- Banner -->
+  <header class="banner">
+    <img src="F1.jpg" alt="Fondo del banner" class="fondo">
+  </header>
+
+  <!-- Menú -->
+  <nav class="menu">
+   <button id="btnLluvia" onclick="lluviaGatos()">🌧️ cats</button>
+    <button onclick="hacerRollo()">🎯 Haz un barrel roll</button>
+<button id="btnSonido" onclick="reproducirSonido()">🔊 Sonido gracioso</button>
+  </nav>
+
+  <!-- Sección de arte/fotos -->
+<section class="videos">
+  <h1>🥳¡FELIZ CIMPLEAÑOS!🥳</h1>
+
+  <video width="100%" height="auto" controls>
+    <source src="Vb.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+
+  <!-- Música recomendada -->
+  <section class="musica">
+  <h2>~RECUERDOS~</h2>
+
+  <div class="cancion">
+    <div class="info-audio">
+     <img src="F2.jpg" alt="icono de música" width="325" height="150">
+     
+     <img src="F3.jpg" alt="icono de música" width="325" height="150">
+      <div class="cancion">
+    <div class="info-audio">
+      <video width="100%" height="auto" controls>
+    <source src="V6.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <video width="100%" height="auto" controls>
+    <source src="V7.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+  </video>
+  <!-- Comentarios de fans -->
+<section class="comentarios">
+  <h2>🗨️ Deja tu comentario</h2>
+  <textarea id="comentarioTexto" placeholder="Escribe tu comentario..."></textarea>
+  <br>
+  <button onclick="enviarComentario()">Enviar</button>
+
+  <div class="comentarios-recientes">
+    <h3>📢 Comentarios recientes</h3>
+    <div id="listaComentarios">
+      <!-- Aquí se mostrarán los comentarios -->
+    </div>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
